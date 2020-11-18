@@ -1,0 +1,282 @@
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    color: rgb(39, 30, 30);
+}
+
+
+/* header 
+start ---------------ーーーーーーーーーーーーーー*/
+
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0 2rem;
+
+}
+.top {
+    max-width: 110rem;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+a.logo {
+    display: block;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: rgb(66, 56, 56);
+
+}
+.top-nav {
+    margin: 0;
+    overflow: hidden;
+
+}
+.top img {
+    float: left;
+}
+.top-nav ul {
+    padding: 2rem;
+    float: right;
+    
+}
+.top-nav ul li{
+    list-style: none;
+    margin: 0 auto;
+    float: left;
+    margin-right: 3rem;
+    padding-top: 1rem;
+}
+.top-nav ul li a {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(66, 56, 56);
+    display: block;
+    
+}
+.top-nav ul li a::after {
+    content: "";
+    width: 0;
+    transition: all 0.3s ease; 
+    border-bottom: 2px solid rgb(53, 53, 53);
+    display: block;
+    padding-bottom: 3px;
+
+}
+.top-nav ul li a:hover::after {
+    width: 100%;
+    border-bottom: 2px solid rgb(53, 53, 53);
+
+}
+/* top-nav end */
+h1 {
+    font-family: 'Noto Sans HK', sans-serif;
+    padding-left: 1rem;
+    margin: 5rem 0 3rem 0;
+    border-bottom: 2px solid rgb(241, 221, 152);
+    border-left: 1rem solid rgb(241, 190, 149);
+    font-size: 3rem;
+}
+p,a {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+/* text 
+start ----------------------------------------------------------*/
+.text {
+    padding: 0 2rem;
+    max-width: 110rem;
+    overflow: hidden;
+    text-align: center;
+}
+.text img{ 
+    width: 30.5rem;
+    height: 40rem;
+    object-fit: cover;
+    margin-left: 2rem;
+    border-radius: 10%;
+}
+
+.text-img1 {
+    margin-top: 10rem;
+    padding-left: 15rem;
+    display: flex;  
+    flex-direction: row;
+  }
+  
+  .text-img2 {
+    margin-top: 5rem;
+    padding-left: 15rem;
+    display: flex;  
+    flex-direction: row;
+  }
+  .text-img1 p {
+    font-size: 1.2rem;
+    max-height: 20rem;
+    margin-top: 15rem;
+    padding-right: 10rem;
+}
+.text-img2 p {
+    font-size: 1.2rem;
+    max-height: 20rem;
+    margin-top: 15rem;
+    padding-left: 10rem;
+}
+
+/* slider 
+start ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+.slider{
+    margin: 0 auto;
+    width: 100%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+
+/* index 
+start ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+
+.greeting-wrap {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+/* news 
+start ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+
+#news-top {
+    margin: 3rem 0;
+    padding: 0 2rem;
+
+}
+
+.main-news {
+    overflow: hidden;
+}
+.main-news dt {
+    float: left;
+    font-size: 1.4rem;
+    margin-top: 3px;
+    margin-right: 3rem;
+}
+.main-news dd {
+    padding-bottom: 2rem;
+
+}
+.main-news a {
+    font-size: 1.6rem;
+    text-decoration: none;
+
+}
+.main-news a:hover {
+    text-decoration: underline;
+}
+/* news end */
+
+/* main-content ---------------------------- */
+.main-content {
+    padding: 0 2rem;
+
+}
+
+.main-content img {
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    transition: 1.0s ;
+
+}
+.contents {
+    overflow: hidden;
+    max-width: 110rem;
+}
+.content {
+    margin-left: 7.5rem;
+    float: left;
+
+}
+.content a p{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.content a {
+    text-decoration: none;
+}
+.content img:hover {
+    opacity: 0.7;
+
+}
+
+/* footer 
+start ----------------------------------------------------------------*/
+footer {
+    margin: 5rem auto;
+    max-width: 110rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+ .address p {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+.address {
+    margin-top: 2rem;
+}
+
+.footer-nav {
+    margin-right: 5rem;
+}
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 3rem;
+    margin-right: 2rem;
+
+}
+footer ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+footer ul li a::after {
+    content: "";
+    width: 0;
+    transition: all 0.3s ease; 
+    border-bottom: 2px solid rgb(53, 53, 53);
+    display: block;
+    padding-bottom: 3px;
+
+}
+footer ul li a:hover::after {
+    width: 100%;
+    border-bottom: 2px solid rgb(53, 53, 53);
+
+}
+small a{
+    display: block;
+    background: rgb(241, 175, 99);
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+/* h-about start */
+
+.h-about h3 {
+    font-size: 2rem;
+}
+.h-about article img {
+    width: 45rem;
+    height: 35rem;
+    object-fit: cover;
+}
