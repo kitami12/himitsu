@@ -271,12 +271,30 @@ small a{
 
 
 /* h-about start */
+.h-about h2,p {
+    font-size: 1.4rem;
+    margin: 5rem 0;
 
-.h-about h3 {
-    font-size: 2rem;
+}
+.h-about {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    text-align: center;
+
 }
 .h-about article img {
     width: 45rem;
     height: 35rem;
     object-fit: cover;
+    border-radius: 2rem;
+    text-align: center;
+    
+}
+
+.h-about h2 {
+    font-size: 2rem;
+}
+.h-about article {
+    margin: 5rem 0;
 }
