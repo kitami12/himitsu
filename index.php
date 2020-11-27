@@ -58,7 +58,7 @@
 
     <div class="contents">
         <div class="content">
-            <a href="">
+            <a href="fruit.php">
                 <p>果 物</p>
                 <img src="img/content1.JPG" alt="みかんの画像">
             </a>

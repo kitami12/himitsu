@@ -1,10 +1,12 @@
 <?php 
     require('header.php');
 ?>
-    <h1>HIMITSUのファームとは</h1>
 
 <div class="h-about">
-    <article>
+<h1>HIMITSUのファームとは</h1>
+
+    <div>
+        
     <article>
             <h2>ー　のどかでのびのび作っています！　ー</h2>
             <p>
@@ -27,7 +29,7 @@
             <img src="img/h_yasai2.JPG" alt="野菜の画像">
         </article>
         <article>
-            <h2>ー　花畑を作ってます！　ー</h2>
+            <h2>ー　お花を育てています！　ー</h2>
             <p>
                 HIMITSUのファームでは、花畑を作って<br>
                 見た目も楽しんでもらえるような場所を作っています。<br>
@@ -35,7 +37,7 @@
             <img src="img/h_hana1.JPG" alt="菊の画像">
         </article>
         
-    </article>
+    </div>
 </div>
 
 

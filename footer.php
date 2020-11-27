@@ -12,9 +12,9 @@
    <div class="footer-nav">
    <ul>
             <li><a href="index.php">ホーム</a></li>
-            <li><a href="index.php">ヒミツのファームとは</a></li>
-            <li><a href="index.php">お知らせ</a></li>
-            <li><a href="index.php">作っているもの</a></li>
+            <li><a href="himitsu.php">ヒミツのファームとは</a></li>
+            <li><a href="notice.php">お知らせ</a></li>
+            <li><a href="photo.php">写真</a></li>
             <li><a href="index.php">商品のご紹介</a></li>
             <li><a href="index.php">ブログ</a></li>
             <li><a href="index.php">お問い合わせ</a></li>
